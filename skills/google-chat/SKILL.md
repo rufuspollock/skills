@@ -28,6 +28,8 @@ $C dm someone@lifeitself.org "quick question ..."  # finds or creates the DM
 
 A space is its resource name (`spaces/AAQA...`) or a unique, case-insensitive part of its display name. Common ones: What's Cooking `spaces/AAQAhZ8DU3A`, Media House Requests `spaces/AAQAEEAQUs8`, AI posts (test) `spaces/AAQAdFVQ8t4`.
 
+Which space: **What's Cooking** is for updates on things that are done, with no asks. Requests and review asks go to the relevant team space, e.g. **Media House Requests** for media work (Rufus, 2026-11-21).
+
 ## Incoming webhook (posts as an app)
 
 ```bash
