@@ -60,6 +60,8 @@ Make all edits, then do the bd writes in one chained call.
 - Decisions that exist only in the chat and will be needed again: into the right doc or bead.
 Only this session's docs; log a bead for unrelated rot.
 
+**Shared files** (skip if the session put no media or files in Drive or similar): tidy the folders it used as the repo's docs say. Life Itself content pieces: originals to `raw/`, unused versions to `alts/`, only finals in the folder root ([mediahouse content-project skill](https://github.com/life-itself/mediahouse/blob/main/skills/content-project.md)).
+
 **Changelog** (skip if no `changelog/` folder or changelog rule in AGENTS.md):
 - Warranted? Repo AGENTS.md rule, else the `changelog` skill's test; when unsure, skip.
 - Entry for this feature already exists (see the state output)? **Update it**, don't add a second. Scope changed: make it describe what shipped, with a live link. Feature dropped: delete it.
