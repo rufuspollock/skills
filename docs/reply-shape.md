@@ -17,6 +17,8 @@ A chat reply puts any detail first, then ends with one closing block, so the rea
 5. **Plain names.** Name a thing before giving its ID ("Fable examples (pl-m2u8)"). No unexplained internal labels.
 6. **Write for the named reader.** Leave out what they already know or designed; a briefing should be a 5–10 minute read at most.
 
+**Copy to paste** (a post, a comment, a title, a URL, a command): put each piece in its own ``` fenced block, never a blockquote, so it copies in one click with no `>` to strip. Keep commentary outside the fences. Put the paste-ready material first, ahead of plans, tables and reasoning.
+
 **Documents** are read top-down, so there the Summary and **You** block go at the top instead.
 
 Go longer than about 150 words only when the reader asked for depth.
