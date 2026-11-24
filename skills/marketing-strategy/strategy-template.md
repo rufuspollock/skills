@@ -1,6 +1,6 @@
 # Marketing strategy: {campaign}
 
-Pack: [pack.md](pack.md). Standing brief: {link, if any}.
+Pack: [pack.md](pack.md) (optional). Runbook: [runbook.md](runbook.md) (optional). Standing brief: {link, if any}.
 
 ## 1. Context
 
@@ -11,15 +11,20 @@ What we're promoting and why now. Key facts (dates, format, price, links).
 - **Stuck:** …
 - **Assets on hand:** lists, accounts and partners, each with its size.
 
-## 2. Goals and success metrics
+## 2. Goals
 
-- **Primary:** {number} {unit} by {date} (baseline: {now}).
-- **Leading indicators** to watch mid-campaign: {clicks, replies, shares}.
-- **Learning goals:** what this run should teach us (which audience, which message, which channel).
+**Objective:** {one or two sentences: what changes in the world if this works}.
+
+Key results, by {date} (3–5, outcomes not outputs):
+
+1. {number} {outcome} (baseline: {now}).
+2. …
+
+*Counting:* how each is measured; leading indicators (outputs) to watch along the way; learning goals.
 
 ## 3. Audiences
 
-For each audience or segment:
+Start from who gets real use from the thing, then find the channels that reach them. For each audience, a named group you can reach:
 
 - who they are
 - what they care about

@@ -10,7 +10,17 @@ metadata:
 
 # Marketing strategy
 
-A campaign strategy is short and time-boxed. It follows Rufus's [Marketing Strategy Structure](https://tao.rufuspollock.com/Marketing+Strategy+Structure.md). Next to it sits a **pack** of ready-to-use copy. The worked example is [Explorer](https://github.com/life-itself/courses/tree/main/explorer/marketing).
+A campaign strategy is short and time-boxed. It follows Rufus's [Marketing Strategy Structure](https://tao.rufuspollock.com/Marketing+Strategy+Structure.md). Worked examples: [Explorer](https://github.com/life-itself/courses/tree/main/explorer/marketing) (strategy and pack); Reports that Matter launch, `reportsthatmatter/marketing` `projects/2611-launch/` (full build).
+
+## What to make
+
+Build in layers. Each layer is optional beyond the first; say which ones you are making and why.
+
+1. **`strategy.md` (always).** From [strategy-template.md](strategy-template.md).
+2. **`pack.md` (optional).** Reusable copy others can lift: one-liner, blurbs at set lengths, per-audience versions, hooks, press block. Make it when other people (editors, partners, collaborators) will write about the thing, or when many posts draw on the same copy. From [pack-template.md](pack-template.md).
+3. **`runbook.md` and other materials (optional, full build).** The runbook is "do this, now": for each action, in date order, the exact text to paste, which image (with a download link), where the link goes (post, first comment, first reply), when, and who, as numbered steps anyone (or an agent) could follow without asking. From [runbook-template.md](runbook-template.md). Other materials: composed images, a public press-kit page, email drafts. Make these when the launch is big enough that the person posting shouldn't have to assemble anything.
+
+The pack is for others to reuse; the runbook is for us to execute. Keep them separate.
 
 ## Process
 
@@ -25,7 +35,7 @@ A campaign strategy is short and time-boxed. It follows Rufus's [Marketing Strat
    Then refine through a few questions. Don't arrive with a finished answer.
 2. **Write `strategy.md`** from [strategy-template.md](strategy-template.md). Goals go near the top and must have a number and a date.
 3. **Find the channels.** **REQUIRED SUB-SKILL:** use `finding-channels`. Its tables go in the appendix and its shortlist goes in the channels section.
-4. **Write `pack.md`** from [pack-template.md](pack-template.md): a one-liner, then short and long blurbs, a version per audience, hooks, cards and a press block.
+4. **Write the optional layers** you chose (see "What to make"): the pack, then the runbook and materials.
 5. **Critique.** Run two subagents in parallel:
    - a skeptical strategist: is the audience narrow enough, are the channels real and doable in the stated budget?
    - a member of the primary audience, reacting to the pack: would I click, share, sign up? Finish the sentence "I'd ignore this because…".
@@ -38,13 +48,16 @@ A campaign strategy is short and time-boxed. It follows Rufus's [Marketing Strat
    - Log each post where the repo logs activity.
 8. **Results when it ends.** Fill in the Results section: the outcome against the goal, what each channel produced, and what we learned. Record these, not impressions.
 
-Put both files in the initiative's marketing folder (e.g. `marketing/<campaign>/`), with a short README of key links and the status of each asset.
+Put the files in the initiative's marketing folder: as a project (`projects/<slug>.md` plus a same-named directory) where the repo uses projects, else `marketing/<campaign>/` with a short README of key links and the status of each asset.
 
 ## Common mistakes
 
-- **Goals without a number or a date**, or placed at the bottom.
+- **Goals without a number or a date**, or placed at the bottom. Goals are one objective (a sentence or two) plus 3–5 key results that are **outcomes** (readers, pick-up, newsletters that run it), not outputs (posts made, notes sent). Counting notes go below the list.
+- **Audiences picked from the channels you have.** Find who gets real use from the thing first, as named groups (never "the curious public"); then the channels that reach them.
 - **Channels listed as platforms.** Use `finding-channels`.
 - **One message for every audience.** Each audience gets its own hook, value proposition and channels.
 - **The budget left unstated.** Time is the real budget. Plans that need more hours than exist don't run.
 - **The plan grows instead of the posting.** More research and drafts aren't progress if nothing is posted.
 - **No Results section.** If it's missing, the next campaign starts from zero.
+- **AI-ish copy.** Long leads, needless counts and lists ("24 of the big ones, UK and US, 1986 to 2026"), hedging. Lead short; let one piece of evidence do the work; quotes keep their context (who, when, where).
+- **A runbook that says "post the LinkedIn thing".** Name the exact text, the exact image and where the link goes.
