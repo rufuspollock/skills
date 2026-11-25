@@ -66,6 +66,7 @@ repo use it (or the local data model); don't invent one.
 | `tracker` | issue tracker; if absent and `github` set, assume `{github}/issues` |
 | `url` | homepage or live site |
 | `workspace` | local checkout path, e.g. `~/src/<owner>/<repo>` |
+| `collaborators` | list of people with a real, current role besides the owner (owner not repeated) |
 | `phase` | `inbox` · `shaping` · `shipping` · `sharing` |
 | `start` / `end` | `YYYY` or `YYYY-MM-DD` — when the work really started / ended, if different from `created` / `completed` |
 | `due` | `YYYY-MM-DD` real deadline |
