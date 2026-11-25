@@ -3,7 +3,7 @@ title: Spaced-Repetition Cards Skill
 description: A reusable agent skill that turns a text or book into a good Anki / spaced-repetition deck, grounded in research and in the library repo's decks.
 created: '2026-11-22'
 owner: rufus
-status: active
+status: in-progress
 tracker: beads
 workspace: ~/src/life-itself/skills
 status_notes:

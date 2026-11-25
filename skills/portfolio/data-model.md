@@ -66,6 +66,7 @@ repo use it (or the local data model); don't invent one.
 | `tracker` | issue tracker; if absent and `github` set, assume `{github}/issues` |
 | `url` | homepage or live site |
 | `workspace` | local checkout path, e.g. `~/src/<owner>/<repo>` |
+| `collaborators` | list of people with a real role besides the owner |
 | `phase` | `inbox` · `shaping` · `shipping` · `sharing` |
 | `start` / `end` | `YYYY` or `YYYY-MM-DD` — when the work really started / ended, if different from `created` / `completed` |
 | `due` | `YYYY-MM-DD` real deadline |
@@ -109,7 +110,8 @@ to it as `- [[projects/<file-stem>|Title]]`.
 **status** — open: `next` (selected as near-term) · `in-progress` · `backlog`
 · `someday` · `paused` (deferred or blocked). Closed: `done` · `superseded` ·
 `dropped` (actively abandoned) · `archived` (old, kept for the record). A
-non-empty `resolution` also means closed.
+non-empty `resolution` also means closed. Only these values: `parked`, `icebox`
+and `idea` are `someday`; `active` is `in-progress`.
 
 **resolution** — `fixed` (default for `done`) · `wontfix` · `duplicate` ·
 `superseded`. Free text allowed for nuance.
