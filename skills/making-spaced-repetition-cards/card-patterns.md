@@ -1,6 +1,6 @@
 # Card patterns
 
-One pattern per kind of material, each with a good example. Then four real cards Rufus rejected, with rewrites. Answers aim for 15 words or fewer; 25 is the hard limit. Every answer must be clear enough for an AI grader to score a reply against it without doubt.
+One pattern per kind of material, each with a good example. Then four real cards Rufus rejected, with rewrites. Answers are as short as they can be (one word is fine). Every answer must be clear enough for an AI grader to score a reply against it without doubt.
 
 ## Patterns
 

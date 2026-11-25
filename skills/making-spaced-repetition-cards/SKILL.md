@@ -14,8 +14,8 @@ A good card is a short question with one clear answer. **The test: an AI grader,
 
 ## Rules
 
-1. **Answer first, and clear.** Write the answer before the question. Aim for 15 words or fewer; 25 is the hard limit. Longer means several cards, or none. Ungraded context can go on a small second line.
-2. **One thing, one right answer.** One question; fronts of 30 words or fewer. No "X, and why?" If another fair answer exists, narrow the front by naming the test, example or contrast you mean. "Why does Wilber rank life above matter?" has many fair answers. "What test does Wilber use to rank life above matter?" has one.
+1. **Answer first, and clear.** Write the answer before the question, as short as the answer allows: one word is often best. There is no fixed limit. A long answer is a warning sign: if it holds more than one idea, it's several cards, or none. Ungraded context can go on a small second line.
+2. **One thing, one right answer.** One short question. No "X, and why?" If another fair answer exists, narrow the front by naming the test, example or contrast you mean. "Why does Wilber rank life above matter?" has many fair answers. "What test does Wilber use to rank life above matter?" has one.
 3. **Every term is known.** A term on the front is everyday, defined on the card, or taught by an earlier card in this deck or in an earlier chapter's deck. Definitions come first; extended cards may rely on core.
 4. **Only what matters.** Card a claim only if it is in the digest and worth knowing in a year. Ask the main point simply; skip subtle side points.
 5. **Fair to the author.** The deck name already says whose book it is, so most fronts don't name the author. Name the author only where a claim is contestable. Drop claims you think are weak.

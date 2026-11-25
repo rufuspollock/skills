@@ -11,8 +11,7 @@ from collections import Counter
 
 REQUIRED = ["separator", "html", "guid column", "tags column", "columns"]
 TYPES = {"concept", "why", "contrast", "list", "tf", "mc", "cloze", "quote", "line", "reflect"}
-MAX_ANSWER = {"reflect": None}  # default 25 (hard); warn above TARGET
-TARGET = 15
+LONG_ANSWER = 25  # words: a warning sign, not a rule
 MAX_FRONT = 30
 STOP = set("""a an the of to in on for and or but is are was were be been it its this that
 these those as by with from at what which who whom why how does do did according
@@ -91,10 +90,9 @@ def main(argv):
             E(n, f"front has {qmarks} question marks; ask exactly one thing")
         if re.search(r",\s*(and|or) (what|why|how|which|who|where|when)\b|\b(and|or) (what|why|how|which|who) (is|are|was|were|does|do|did|can|should|would)\b", strip(front), re.I):
             E(n, "front asks two things ('… and what/why/how …')")
-        if nf > MAX_FRONT: E(n, f"front is {nf} words (max {MAX_FRONT})")
-        lim = MAX_ANSWER.get(typ, 25)
-        if lim and na > lim: E(n, f"answer line is {na} words (max {lim}); split the card or cut")
-        elif lim and na > TARGET and typ not in ("line", "quote"): W(n, f"answer line is {na} words (target {TARGET})")
+        if nf > MAX_FRONT: W(n, f"front is {nf} words: can the question be shorter?")
+        if na > LONG_ANSWER and typ != "reflect":
+            W(n, f"answer line is {na} words: is it one idea with one clear answer?")
         if typ == "tf" and not re.match(r"\s*(true|false)\b", strip(front), re.I) and "true or false" not in strip(front).lower():
             E(n, "tf card front should start 'True or false:'")
         if typ == "tf" and not re.match(r"\s*(true|false)\b", strip(ans), re.I):
