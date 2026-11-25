@@ -62,7 +62,7 @@ Issue tree:
 
 ## Ideas offered (parked)
 
-- More card variety: yes/no, multiple choice, cloze; 15 words is sometimes too aggressive (Rufus, 2026-11-22). Adopted: 15-word target, 25 hard limit; true/false, multiple choice and fill-the-blank allowed up to about a third of a deck.
+- More card variety: yes/no, multiple choice, cloze; 15 words is sometimes too aggressive (Rufus, 2026-11-22). Adopted, then revised 2026-11-25: no fixed word limit, answers as short as they allow (one word is fine); true/false, multiple choice and fill-the-blank allowed up to about a third of a deck.
 - Test of a good card: an AI could score the reply against the back clearly, right or wrong or out of 10 (Rufus, 2026-11-22). Adopted as the core rule and the grader test.
 
 - Use Fable subagents to identify the problem, the approach, the build, the test, and the evaluation (Rufus, 2026-11-22).
